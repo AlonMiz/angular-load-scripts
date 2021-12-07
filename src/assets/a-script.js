@@ -1,1 +1,1 @@
-console.log('a script')
+console.log('a-script')

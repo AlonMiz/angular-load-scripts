@@ -1,4 +1,7 @@
 <h1>wow</h1>
-<div [innerHTML]="myDynamicMarkup | safeHtml" runScripts></div>
+<div
+  [innerHTML]="myDynamicMarkup | safeHtml"
+  [runScripts]="myDynamicMarkup"
+></div>
 
 <router-outlet></router-outlet>

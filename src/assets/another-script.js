@@ -1,1 +1,1 @@
-console.log('outerscript')
+console.log('another-script')
